@@ -1,0 +1,335 @@
+header,
+footer,
+article,
+section,
+nav {
+	display: block;
+	vertical-align: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../images/bg.jpg) no-repeat;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	overflow: scroll;
+	background-attachment: fixed;
+}
+
+#container {
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#container>header {
+	height: 60px;
+	color: whitesmoke;
+	padding: 40px 0 0 0;
+}
+
+h1,
+h4 {
+	text-transform: uppercase;
+}
+
+h2 {
+	color: cornflowerblue;
+	margin-bottom: 10px;
+	font-weight: 100;
+}
+
+h3 {
+	color: aliceblue;
+	margin-bottom: 10px;
+}
+
+header .img_wrapper {
+	float: right;
+}
+
+nav .menu {
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg_menu.png) no-repeat;
+	background-size: contain;
+}
+
+p span0 {
+	text-align: justify;
+	line-height: 20px;
+}
+
+.menu li {
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+}
+
+.menu li a {
+	display: block;
+	height: 30px;
+	width: 100px;
+	background: url(../images/btn.png) no-repeat;
+	background-size: contain;
+	text-align: center;
+	text-decoration: none;
+	color: cyan;
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+.menu li a:hover,
+.menu li a.active {
+	background: url(../images/menu_hover.png);
+	color: azure;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg_content.png) repeat;
+	background-size: contain;
+	color: darkgrey;
+	margin: 200px 0 0 0px;
+	min-height: 800px;
+	padding: 20px;
+}
+
+.clearfix::after,
+.clearfix::before {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+article {
+	width: 240px;
+	height: 100%;
+	margin: 20px;
+	float: left;
+	text-align: justify;
+}
+
+article2 {
+	float: left;
+	width: 505px;
+	height: 100%;
+	margin-right: 35px;
+	position: relative;
+}
+
+article3 {
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+
+.divider {
+	height: 2px;
+	float: left;
+	background: url(../images/hr_divider.png) repeat;
+	background-size: contain;
+	width: 100%;
+}
+
+.wrapper,
+.wrapper2 {
+	padding-left: 20px;
+}
+
+.wrapper {
+	padding-top: 20px;
+}
+
+.wrapper2 {
+	padding-top: 30px;
+}
+
+p span1,
+p span2 {
+	font-style: italic;
+	text-align: left;
+	line-height: 18px;
+}
+
+span1 {
+	color: azure;
+}
+
+footer {
+	height: 50px;
+	color: beige;
+	opacity: 0.6;
+	text-align: center;
+}
+
+.button {
+	color: aliceblue;
+	width: 100px;
+	height: 29px;
+	background-image: url(../images/btn.png);
+	/*top: 25px;
+	left: 400px;*/
+	margin-top: 5px;
+	margin-bottom: 30px;
+	float: right;
+}
+
+.button:hover {
+	background-image: url(../images/btn_hover.png);
+	cursor: pointer;
+}
+
+.button p {
+	text-align: center;
+	padding-top: 6px;
+}
+
+img {
+	float: left;
+	margin: 0 5px;
+}
+
+article2 img {
+	border: 10px solid #363636;
+	outline: 1px solid black;
+}
+
+.block1 {
+	display: flex;
+}
+
+.block2 {
+	display: flex;
+}
+
+.box {
+	width: 400px;
+	margin: 20px;
+}
+
+.new_courses {
+	width: 45%;
+}
+
+.testimonal {
+	width: 55%;
+}
+
+.about_us {
+	width: 65%;
+}
+
+.Testimonials {
+	width: 35%;
+}
+
+.Testimonials p {
+	margin: 25px 0;
+}
+
+.partners_program,
+.partners {
+	width: 65%;
+}
+
+.discounts,
+.our_advantages {
+	width: 35%;
+	margin-right: 100px;
+}
+
+.our_advantages ul li {
+	text-transform: uppercase;
+	width: 200px;
+}
+
+.box img {
+	border: 10px solid #363636;
+	outline: 1px solid black;
+}
+
+.new {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 15px;
+}
+
+ul li {
+	list-style-image: url(../images/list.png);
+	margin: 15px;
+}
+
+.flashmo {
+	width: 150px;
+	height: 30px;
+	margin: 5px;
+	margin-right: 15px;
+	background-image: url(../images/flashmo.png);
+}
+
+.flashmo:hover {
+	background-image: url(../images/flashmo_hover.png);
+}
+
+.templatemo {
+	width: 225px;
+	height: 40px;
+	margin: 5px;
+	background-image: url(../images/templatemo.png);
+}
+
+.templatemo:hover {
+	background-image: url(../images/templatemo_hover.png);
+}
+
+.koflash {
+	width: 148px;
+	height: 30px;
+	margin: 5px;
+	margin-right: 15px;
+	background-image: url(../images/koflash.png);
+}
+
+.koflash:hover {
+	background-image: url(../images/koflash_hover.png);
+}
+
+.webdesignmo {
+	width: 260px;
+	height: 40px;
+	margin: 5px;
+	background-image: url(../images/webdesignmo.png);
+}
+
+.webdesignmo:hover {
+	background-image: url(../images/webdesignmo_hover.png);
+}
+
+.registration {
+	width: 80%;
+	height: 80%;
+	text-align: center;
+	border: 2px solid gray;
+	border-radius: 20px;
+	margin: 0 auto;
+	background: #79CDCD;
+	color: darkblue;
+	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+	padding: 12px;
+}
+
+
+
+
+.kontact {
+	line-height: 15px;
+	margin-top: 50px;
+	text-align: center;
+}
